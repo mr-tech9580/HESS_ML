@@ -1,0 +1,37 @@
+{
+    "controllers": {
+        "ml": {
+            "energy_demand_kwh": 12.11122154816503,
+            "battery_energy_kwh": 6.623221548165033,
+            "peak_battery_power_kw": 73.1874788861546,
+            "battery_rms_power_kw": 28.89421759282277,
+            "mean_battery_loss_w": 52.17973814383681,
+            "final_battery_soc": 0.6257046961009197,
+            "final_supercap_soc": 0.1
+        },
+        "rule": {
+            "energy_demand_kwh": 12.11122154816503,
+            "battery_energy_kwh": 6.623247356601094,
+            "peak_battery_power_kw": 73.1874788861546,
+            "battery_rms_power_kw": 28.88569074598089,
+            "mean_battery_loss_w": 52.148945617027884,
+            "final_battery_soc": 0.625704016931552,
+            "final_supercap_soc": 0.10000329189235431
+        },
+        "battery_only": {
+            "energy_demand_kwh": 12.11122154816503,
+            "battery_energy_kwh": 12.110124417487649,
+            "peak_battery_power_kw": 100.0,
+            "battery_rms_power_kw": 49.97633651672359,
+            "mean_battery_loss_w": 156.10213822705,
+            "final_battery_soc": 0.48131251532927366,
+            "final_supercap_soc": 0.7998600598625788
+        }
+    },
+    "ml_vs_battery_priority": {
+        "battery_energy_reduction_percent": 45.30839387082797,
+        "peak_battery_power_reduction_percent": 26.812521113845406,
+        "battery_rms_power_reduction_percent": 42.184202351138936,
+        "mean_battery_loss_reduction_percent": 66.57333542225953
+    }
+}
